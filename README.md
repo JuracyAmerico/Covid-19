@@ -3,4 +3,4 @@ Conector de dados na Web para acessar Dados diários mais recentes do coronavír
 
 ![Brasil.io](https://pbs.twimg.com/profile_images/449683154316435456/vVZi4P2o_400x400.png)
 
-![Coronavirus](https://dph.georgia.gov/sites/dph.georgia.gov/files/styles/three_two_702x468/public/2020-03/covid_header_dph_3.5.png?h=7baa948d&itok=Kc_-uBKX)
+![Coronavirus](https://secureservercdn.net/166.62.110.213/hbd.3bb.myftpupload.com/wp-content/uploads/2020/03/coronavirus-1.jpg)
