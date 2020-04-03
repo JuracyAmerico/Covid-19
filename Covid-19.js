@@ -52,18 +52,17 @@
       
             for (var i = 1, len = feat.length; i < len; i++) {  
               tableData.push({  
-                city: feat[i].city,  
-                city_ibge_code: feat[i].city_ibge_code,  
-                confirmed: feat[i].confirmed,  
-                confirmed_per_100k_inhabitants:  
-                feat[i].confirmed_per_100k_inhabitants,  
-                date: feat[i].date,  
-                death_rate: feat[i].death_rate,  
-                deaths: feat[i].deaths,  
-                estimated_population_2019: feat[i].estimated_population_2019,  
-                is_last: feat[i].is_last,  
-                place_type: feat[i].place_type,  
-                state: feat[i].state  
+                "city": feat[i].city,
+                "city_ibge_code": feat[i].city_ibge_code,
+                "confirmed": feat[i].confirmed,
+                "confirmed_per_100k_inhabitants": feat[i].confirmed_per_100k_inhabitants,
+                "date": feat[i].date,
+                "death_rate": feat[i].death_rate,
+                "deaths": feat[i].deaths,
+                "estimated_population_2019": feat[i].estimated_population_2019,
+                "is_last": feat[i].is_last,
+                "place_type": feat[i].place_type,
+                "state": feat[i].state 
               });  
             }  
             // Interagindo entre todas as paginas, para isso fazemos a variavel next = resp.next; para pegar proxima pagina com dados , se nao encontrar mais dados vai ser null
