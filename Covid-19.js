@@ -17,7 +17,7 @@
     myConnector.getSchema = function(schemaCallback) {
         var cols = [
             {id:"city", alias: "Cidade", dataType: tableau.dataTypeEnum.string},
-            {id:"city_ibge_code", alias: "Codigo IBGE", dataType: tableau.dataTypeEnum.int},
+            {id:"city_ibge_code", alias: "Codigo IBGE", dataType: tableau.dataTypeEnum.string},
             {id:"confirmed", alias: "Confirmados", dataType: tableau.dataTypeEnum.float},
             {id:"confirmed_per_100k_inhabitants", alias: "Confirmados por 100k hab.", dataType: tableau.dataTypeEnum.int},
             {id:"date", alias: "Data", dataType: tableau.dataTypeEnum.date},
