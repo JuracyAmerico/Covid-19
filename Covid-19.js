@@ -9,7 +9,7 @@
 
 (function() {
     //1: *************************
-    // Criando o objeto da conexão
+    // Criação do objeto da conexão
     var myConnector = tableau.makeConnector();
 
     //2: *************************
@@ -40,8 +40,7 @@
     };
 
     //3: *************************
-    // Busca e Download dos dados
-
+    // Obtencão dos dados
     myConnector.getData = function(table, doneCallback) {  
         function getAllData(url) {  
           $.getJSON(url, function(resp) {  
@@ -86,7 +85,7 @@
     tableau.registerConnector(myConnector);
 
     //5: *************************
-    // Criação do evento que fica escutando quando o usuário submete o formulário
+    // Criação do evento que fica escutando quando o usuário clica no botão da pagina HTML
     $(document).ready(function() {
         $("#submitButton").click(function() {
             tableau.connectionName = "Casos do coronavírus por município por dia"; // Este texto vai ser o nome na fonte de dados no Tableau
